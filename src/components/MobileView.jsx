@@ -36,8 +36,8 @@ function MobileView() {
         <img src={logoimage} alt="skillspp" className="h-10 w-10" />
       </div>
 
-      <main className="relative flex-grow flex flex-col px-4 pt-4 z-10">
-        <div className="text-left space-y-3">
+      <main className="relative flex-grow flex flex-col z-10">
+        <div className="text-left space-y-3 px-4">
           <h3 className="text-sm font-medium text-black font-grotesk">
             <b>Congrats!</b> Seems like you cracked the code.
           </h3>
@@ -52,13 +52,13 @@ function MobileView() {
           </p>
 
           {/* Glow-Enhanced Gradient Heading */}
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight font-[Unbounded] text-gradient font-unbounded">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight font-[Unbounded] text-gradient font-unbounded" style={{fontFamily: "Unbounded"}}>
             Reboot <br /> In-Progress
           </h2>
 
           <p className="text-sm text-black">&gt; Get ready to skill++</p>
 
-          <button className="mt-4 px-4 py-2 text-sm font-semibold bg-[#283593] text-white uppercase tracking-wide font-unbounded">
+          <button className="mt-4 px-4 py-2 text-sm font-semibold bg-[#283593] text-white uppercase tracking-wide font-unbounded"  style={{fontFamily: "Unbounded"}}>
             TO BE HERE SOON
           </button>
         </div>
@@ -68,7 +68,7 @@ function MobileView() {
           <img
             src={bikerImage}
             alt="Cyberpunk biker on motorcycle"
-            className="w-full max-w-lg object-contain relative z-20"
+            className="w-full max-w-lg object-contain relative z-20 m-0"
           />
         </div>
       </main>
