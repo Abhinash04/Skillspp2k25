@@ -7,7 +7,7 @@ function Navbar() {
       <div className="container mx-auto">
         <div className="flex justify-between items-center h-16 md:grid md:grid-cols-7">
           {/* Logo */}
-          <div className="flex items-center pl-4">
+          <div className="flex justify-center items-center pl-4">
             <img src={logoimage} alt="skillspp" className="h-10 w-10" />
           </div>
 
