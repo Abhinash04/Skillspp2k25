@@ -9,7 +9,7 @@ function Footer() {
         {/* Logo & Title */}
         <div className="flex items-center gap-2 mb-4 md:mb-0">
           <img src={logo} alt="Logo" className="h-6 w-6" />
-          <span className="text-sm font-medium text-black">
+          <span className="text-sm font-medium text-black font-grotesk">
             Zairza Robo-Sof-Des Club's Initiative
           </span>
         </div>
