@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 import bikerImage from "../assets/images/bike.png";
 
 function Section1() {
@@ -24,10 +25,16 @@ function Section1() {
   }, []);
 
   return (
-    <main className="flex-grow relative overflow-hidden  grid-bg flex items-center">
+    <main className="flex-grow relative overflow-hidden grid-bg flex items-center">
       <div className="container mx-auto px-6 pt-10 relative">
         <div className="grid md:grid-cols-2 items-center">
-          <div className="text-center md:text-left space-y-4 relative z-10 ml-6">
+          {/* Left Content (Slides in from Left) */}
+          <motion.div
+            initial={{ opacity: 0, x: -50 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1, ease: "easeOut" }}
+            className="text-center md:text-left space-y-4 relative z-10 ml-6"
+          >
             <h3 className="text-sm md:text-xl font-medium text-black font-grotesk">
               <b>Congrats!</b> Seems like you cracked the code.
             </h3>
@@ -46,26 +53,32 @@ function Section1() {
               Reboot <br /> In-Progress
             </h2>
 
-            <p className="text-sm md:text-lg text-black font-grotesk">&gt; Get ready to skill++</p>
+            <p className="text-sm md:text-lg text-black font-grotesk">
+              &gt; Get ready to skill++
+            </p>
 
             <div className="block md:hidden mt-4">
               <button className="px-4 py-2 text-sm font-semibold bg-[#283593] text-white uppercase tracking-wide">
                 TO BE HERE SOON
-                </button>
-              </div>
+              </button>
             </div>
+          </motion.div>
         </div>
       </div>
 
-      {/* Glow Effect Behind Bike */}
-      <div className="absolute bottom-0 right-0 w-full flex justify-center md:justify-end">
+      <motion.div
+        initial={{ opacity: 0, x: 50 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1, ease: "easeOut", delay: 0.5 }}
+        className="absolute bottom-0 right-0 w-full flex justify-center md:justify-end"
+      >
         <div className="absolute w-[100vw] h-[100vw] md:w-[800px] md:h-[800px] bg-yellow-400 glow-effect"></div>
         <img
           src={bikerImage}
           alt="Cyberpunk biker on motorcycle"
           className="w-[300px] md:w-auto h-auto md:h-[500px] object-contain relative z-20"
         />
-      </div>
+      </motion.div>
     </main>
   );
 }
