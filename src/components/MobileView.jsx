@@ -38,27 +38,27 @@ function MobileView() {
 
       <main className="relative flex-grow flex flex-col px-4 pt-4 z-10">
         <div className="text-left space-y-3">
-          <h3 className="text-sm font-medium text-black">
+          <h3 className="text-sm font-medium text-black font-grotesk">
             <b>Congrats!</b> Seems like you cracked the code.
           </h3>
 
           {/* Animated Counter */}
-          <h1 className="text-4xl font-extrabold text-blue-700">
+          <h1 className="text-4xl font-extrabold text-blue-700 font-grotesk">
             {count}+
           </h1>
 
-          <p className="text-sm font-medium text-black">
+          <p className="text-sm font-medium text-black font-grotesk">
             Peers skilled ++ in 2024
           </p>
 
           {/* Glow-Enhanced Gradient Heading */}
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight font-[Unbounded] text-gradient">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight font-[Unbounded] text-gradient font-unbounded">
             Reboot <br /> In-Progress
           </h2>
 
           <p className="text-sm text-black">&gt; Get ready to skill++</p>
 
-          <button className="mt-4 px-4 py-2 text-sm font-semibold bg-[#283593] text-white uppercase tracking-wide">
+          <button className="mt-4 px-4 py-2 text-sm font-semibold bg-[#283593] text-white uppercase tracking-wide font-unbounded">
             TO BE HERE SOON
           </button>
         </div>
@@ -77,9 +77,9 @@ function MobileView() {
       <footer className="relative bg-white py-3 px-4 mt-auto z-10">
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-2">
-            <span className="text-xs">A</span>
+            <span className="text-xs font-grotesk">A</span>
             <img src={zairzalogo} alt="ZAIRZA" className="h-5" />
-            <span className="text-xs">Initiative Program</span>
+            <span className="text-xs  font-grotesk">Initiative Program</span>
           </div>
           <div className="flex gap-2">
             <a href="https://www.youtube.com/@zairzarobosofdescluboutrb1825" className="w-6 h-6 bg-gray-200 rounded-full flex items-center justify-center">
