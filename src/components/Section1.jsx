@@ -28,21 +28,21 @@ function Section1() {
       <div className="container mx-auto px-6 pt-10 relative">
         <div className="grid md:grid-cols-2 items-center">
           <div className="text-center md:text-left space-y-4 relative z-10">
-            <h3 className="text-sm md:text-xl font-medium text-black">
+            <h3 className="text-sm md:text-xl font-medium text-black font-grotesk">
               <b>Congrats!</b> Seems like you cracked the code.
             </h3>
 
             {/* Animated Counter */}
-            <h1 className="text-4xl md:text-7xl font-extrabold">
+            <h1 className="text-4xl md:text-7xl font-extrabold font-grotesk">
               <span className="text-[#313DA2]">{count}+</span>
             </h1>
 
-            <p className="text-sm md:text-lg font-bold text-black">
+            <p className="text-sm md:text-lg font-bold text-black font-grotesk">
               <b>Peers skilled ++ in 2024</b>
             </p>
 
             {/* Glow-Enhanced Gradient Heading */}
-            <h2 className="text-gradient text-4xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-[96px] font-normal leading-[1.1]">
+            <h2 className="text-gradient text-4xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-[96px] font-normal leading-[1.1] font-unbounded">
               Reboot <br /> In-Progress
             </h2>
 
