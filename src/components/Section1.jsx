@@ -3,7 +3,6 @@ import bikerImage from "../assets/images/bike.png";
 
 function Section1() {
   return (
-
     <main className="flex-grow relative overflow-hidden bg-[#faf5e5] grid-bg flex items-center">
       <div className="container mx-auto px-6 pt-10 relative">
         <div className="grid md:grid-cols-2 items-center">
@@ -32,12 +31,13 @@ function Section1() {
         </div>
       </div>
 
-      {/* Biker Image */}
-      <div className="absolute bottom-0 right-0 w-full md:w-1/2 flex justify-center md:justify-end">
+      {/* Glow Effect */}
+      <div className="absolute bottom-0 right-0 w-full flex justify-center md:justify-end">
+        <div className="absolute w-[100vh] h-[100vh] md:w-[800px] md:h-[800px] bg-yellow-400 glow-effect"></div>
         <img
           src={bikerImage}
           alt="Cyberpunk biker on motorcycle"
-          className="w-[300px] md:w-auto h-auto md:h-[500px] object-contain"
+          className="w-[300px] md:w-auto h-auto md:h-[500px] object-contain relative"
         />
       </div>
     </main>
