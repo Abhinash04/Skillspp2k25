@@ -56,7 +56,7 @@ function MobileView() {
             Reboot <br /> In-Progress
           </h2>
 
-          <p className="text-sm text-black">&gt; Get ready to skill++</p>
+          <p className="text-sm text-black font-grotesk">&gt; Get ready to skill++</p>
 
           <button className="mt-4 px-4 py-2 text-sm font-semibold bg-[#283593] text-white uppercase tracking-wide font-unbounded"  style={{fontFamily: "Unbounded"}}>
             TO BE HERE SOON
@@ -65,6 +65,7 @@ function MobileView() {
 
         {/* Biker Image with Glow */}
         <div className="relative flex-grow flex justify-center items-end mt-4">
+        <div className="absolute w-[100vw] h-[100vw] md:w-[800px] md:h-[800px] bg-yellow-400 glow-effect"></div>
           <img
             src={bikerImage}
             alt="Cyberpunk biker on motorcycle"

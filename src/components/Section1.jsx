@@ -33,8 +33,8 @@ function Section1() {
             </h3>
 
             {/* Animated Counter */}
-            <h1 className="text-4xl md:text-7xl font-extrabold font-grotesk">
-              <span className="text-[#313DA2]">{count}+</span>
+            <h1 className="text-4xl md:text-7xl font-extrabold font-grotesk inline">
+              <span className="text-[#313DA2] text-5xl">{count}+</span>
             </h1>
 
             <p className="text-sm md:text-lg font-bold text-black font-grotesk">
@@ -42,11 +42,11 @@ function Section1() {
             </p>
 
             {/* Glow-Enhanced Gradient Heading */}
-            <h2 className="text-gradient text-4xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-[96px] font-normal leading-[1.1] font-unbounded">
+            <h2 className="text-gradient text-4xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-[70px] font-normal leading-[1.1] font-unbounded">
               Reboot <br /> In-Progress
             </h2>
 
-            <p className="text-sm md:text-lg text-black">&gt; Get ready to skill++</p>
+            <p className="text-sm md:text-lg text-black font-grotesk">&gt; Get ready to skill++</p>
 
             <div className="block md:hidden mt-4">
               <button className="px-4 py-2 text-sm font-semibold bg-[#283593] text-white uppercase tracking-wide">
