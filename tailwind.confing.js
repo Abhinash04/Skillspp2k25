@@ -5,6 +5,7 @@ export default {
         fontFamily: {
           oswald: ['Oswald', 'sans-serif'],
           unbounded: ['Unbounded', 'sans-serif'],
+          grotesk: ['Space Grotesk', 'sans-serif'],
         },
       },
     },

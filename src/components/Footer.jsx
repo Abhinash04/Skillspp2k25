@@ -16,9 +16,9 @@ function Footer() {
 
         {/* Social Links */}
         <div className="flex gap-4">
-          <a href="#" className="text-sm font-medium text-black underline">Youtube</a>
-          <a href="#" className="text-sm font-medium text-black underline">Instagram</a>
-          <a href="#" className="text-sm font-medium text-black underline">LinkedIn</a>
+          <a href="#" className="text-sm font-medium text-black underline"><b>Youtube</b></a>
+          <a href="#" className="text-sm font-medium text-black underline"><b>Instagram</b></a>
+          <a href="#" className="text-sm font-medium text-black underline"><b>LinkedIn</b></a>
         </div>
 
       </div>

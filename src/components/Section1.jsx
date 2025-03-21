@@ -12,13 +12,13 @@ function Section1() {
             </h3>
 
             <h1 className="text-4xl md:text-7xl font-extrabold">
-              <span className="text-blue-700">250+</span>
+              <span className="text-[#313DA2]">250+</span>
             </h1>
-            <p className="text-sm md:text-lg font-semibold text-black">
-              Peers skilled ++ in 2024
+            <p className="text-sm md:text-lg font-bold text-black">
+              <b>Peers skilled ++ in 2024</b>
             </p>
 
-            <h2 className="text-3xl md:text-6xl font-extrabold leading-tight font-[Unbounded] text-gradient">
+            <h2 className="text-gradient text-4xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-[96px] font-normal leading-[1.1]">
               Reboot <br /> In-Progress
             </h2>
             <p className="text-sm md:text-lg text-black">&gt; Get ready to skill++</p>
