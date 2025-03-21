@@ -14,22 +14,22 @@ function Navbar() {
           {/* Hidden on Mobile */}
           <div className="hidden md:grid md:col-span-5 grid-cols-4 h-full text-black">
             <div className="flex items-center justify-center border-x border-black h-full">
-              <span className="text-base font-medium">Loading...</span>
+              <span className="text-base font-unbounded">Loading...</span>
             </div>
             <div className="flex items-center justify-center border-r border-black h-full">
-              <span className="text-base font-medium">Processing...</span>
+              <span className="text-base font-unbounded">Processing...</span>
             </div>
             <div className="flex items-center justify-center border-r border-black h-full">
-              <span className="text-base font-medium">Rebooting...</span>
+              <span className="text-base font-unbounded">Rebooting...</span>
             </div>
             <div className="flex items-center justify-center border-r border-black h-full">
-              <span className="text-base font-medium">Coming Soon</span>
+              <span className="text-base font-unbounded">Coming Soon</span>
             </div>
           </div>
 
           {/* Button */}
           <div className="flex justify-center w-full md:w-auto">
-            <button className="px-4 py-2 text-xs md:text-sm font-semibold bg-[#283593] text-white w-fit transition-all shadow-[4px_4px_0px_black] 
+            <button className="px-4 py-2 text-xs md:text-sm font-semibold font-unbounded bg-[#283593] text-white w-fit transition-all shadow-[4px_4px_0px_black] 
                    hover:shadow-none hover:translate-x-[4px] hover:translate-y-[4px] uppercase tracking-wide">
               TO BE HERE SOON
             </button>
