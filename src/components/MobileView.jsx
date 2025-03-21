@@ -10,7 +10,7 @@ function MobileView() {
   useEffect(() => {
     let start = 0;
     const end = 250;
-    const duration = 2000;
+    const duration = 4000;
     const increment = Math.ceil(end / (duration / 50));
 
     const counter = setInterval(() => {
