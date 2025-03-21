@@ -27,7 +27,7 @@ function Section1() {
     <main className="flex-grow relative overflow-hidden bg-[#faf5e5] grid-bg flex items-center">
       <div className="container mx-auto px-6 pt-10 relative">
         <div className="grid md:grid-cols-2 items-center">
-          <div className="text-center md:text-left space-y-4 relative z-10">
+          <div className="text-center md:text-left space-y-4 relative z-10 ml-6">
             <h3 className="text-sm md:text-xl font-medium text-black font-grotesk">
               <b>Congrats!</b> Seems like you cracked the code.
             </h3>
@@ -42,7 +42,7 @@ function Section1() {
             </p>
 
             {/* Glow-Enhanced Gradient Heading */}
-            <h2 className="text-gradient text-4xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-[70px] font-normal leading-[1.1] font-unbounded">
+            <h2 className="text-gradient text-4xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-[70px] font-normal leading-[1.1] font-[unbounded]">
               Reboot <br /> In-Progress
             </h2>
 

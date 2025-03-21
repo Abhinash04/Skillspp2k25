@@ -75,13 +75,17 @@ function MobileView() {
       </main>
 
       {/* Footer */}
-      <footer className="relative bg-white py-3 px-4 mt-auto z-10">
-        <div className="flex justify-between items-center">
+      <footer className="relative bg-white py-3 px-4 mt-auto z-10 mb-4">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-2 md:gap-4">
+          
+          {/* Footer Content */}
           <div className="flex items-center gap-2">
             <span className="text-xs font-grotesk">A</span>
             <img src={zairzalogo} alt="ZAIRZA" className="h-5" />
-            <span className="text-xs  font-grotesk">Initiative Program</span>
+            <span className="text-xs font-grotesk">Initiative Program</span>
           </div>
+
+          {/* Social Media Icons */}
           <div className="flex gap-2">
             <a href="https://www.youtube.com/@zairzarobosofdescluboutrb1825" className="w-6 h-6 bg-gray-200 rounded-full flex items-center justify-center">
               <FaYoutube className="text-black" size={14} />
@@ -93,6 +97,7 @@ function MobileView() {
               <FaLinkedin className="text-black" size={14} />
             </a>
           </div>
+
         </div>
       </footer>
     </div>
