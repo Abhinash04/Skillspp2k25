@@ -58,7 +58,7 @@ function MobileView() {
 
           <p className="text-sm text-black font-grotesk">&gt; Get ready to skill++</p>
 
-          <button className="mt-4 px-4 py-2 text-sm font-semibold bg-[#283593] text-white uppercase tracking-wide font-unbounded"  style={{fontFamily: "Unbounded"}}>
+          <button className="mt-4 px-4 py-2 text-sm font-semibold bg-[#283593] text-white uppercase tracking-wide font-unbounded width-max shadow-[4px_4px_0px_black]"  style={{fontFamily: "Unbounded"}}>
             TO BE HERE SOON
           </button>
         </div>

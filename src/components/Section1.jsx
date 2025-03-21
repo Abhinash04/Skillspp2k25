@@ -24,7 +24,7 @@ function Section1() {
   }, []);
 
   return (
-    <main className="flex-grow relative overflow-hidden bg-[#faf5e5] grid-bg flex items-center">
+    <main className="flex-grow relative overflow-hidden  grid-bg flex items-center">
       <div className="container mx-auto px-6 pt-10 relative">
         <div className="grid md:grid-cols-2 items-center">
           <div className="text-center md:text-left space-y-4 relative z-10 ml-6">
@@ -51,9 +51,9 @@ function Section1() {
             <div className="block md:hidden mt-4">
               <button className="px-4 py-2 text-sm font-semibold bg-[#283593] text-white uppercase tracking-wide">
                 TO BE HERE SOON
-              </button>
+                </button>
+              </div>
             </div>
-          </div>
         </div>
       </div>
 

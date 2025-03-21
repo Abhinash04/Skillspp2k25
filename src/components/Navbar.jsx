@@ -3,9 +3,10 @@ import logoimage from "../assets/images/skillslogo.png";
 
 function Navbar() {
   return (
-    <header className="sticky top-0 z-50 bg-[#f5f2e8] border-b border-black">
-      <div className="container mx-auto">
-        <div className="flex justify-between items-center h-16 md:grid md:grid-cols-7">
+    <header className="fixed left-[50%] transform-[translateX(-50%)] top-0 z-50 border-b border-black px-4 w-[100%]" style={{ backgroundColor: 'rgba(0,0,0,0)' }}>
+
+      <div className="container mx-auto bg-transparent">
+        <div className="flex justify-between items-center h-16 md:grid md:grid-cols-7 bg-transparent">
           {/* Logo */}
           <div className="flex justify-center items-center pl-4">
             <img src={logoimage} alt="skillspp" className="h-10 w-10" />
@@ -28,7 +29,7 @@ function Navbar() {
           </div>
 
           {/* Button */}
-          <div className="flex justify-center w-full md:w-auto">
+          <div className="flex justify-center items-center w-max">
             <button className="px-4 py-2 text-xs md:text-sm font-semibold bg-[#283593] text-white w-fit transition-all shadow-[4px_4px_0px_black] 
                    hover:shadow-none hover:translate-x-[4px] hover:translate-y-[4px] uppercase tracking-wide font-[Unbounded]">
               TO BE HERE SOON
