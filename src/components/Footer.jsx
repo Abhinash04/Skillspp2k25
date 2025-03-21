@@ -16,9 +16,9 @@ function Footer() {
 
         {/* Social Links */}
         <div className="flex gap-4">
-          <a href="#" className="text-sm font-medium text-black underline"><b>Youtube</b></a>
-          <a href="#" className="text-sm font-medium text-black underline"><b>Instagram</b></a>
-          <a href="#" className="text-sm font-medium text-black underline"><b>LinkedIn</b></a>
+          <a href="https://www.youtube.com/@zairzarobosofdescluboutrb1825" className="text-sm font-medium text-black underline"><b>Youtube</b></a>
+          <a href="https://www.instagram.com/zairza.outr/" className="text-sm font-medium text-black underline"><b>Instagram</b></a>
+          <a href="https://in.linkedin.com/company/zairza" className="text-sm font-medium text-black underline"><b>LinkedIn</b></a>
         </div>
 
       </div>

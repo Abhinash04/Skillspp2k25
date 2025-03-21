@@ -1,10 +1,31 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import bikerImage from "../assets/images/mobilebike.png";
 import logoimage from "../assets/images/skillslogo.png";
 import zairzalogo from "../assets/images/logo.png";
 import { FaYoutube, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 function MobileView() {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    let start = 0;
+    const end = 250;
+    const duration = 2000;
+    const increment = Math.ceil(end / (duration / 50));
+
+    const counter = setInterval(() => {
+      start += increment;
+      if (start >= end) {
+        setCount(end);
+        clearInterval(counter);
+      } else {
+        setCount(start);
+      }
+    }, 50);
+
+    return () => clearInterval(counter);
+  }, []);
+
   return (
     <div className="relative flex flex-col min-h-screen bg-[#f5f2e8] overflow-hidden grid-bg">
       {/* Glow Effect Behind Bike */}
@@ -21,9 +42,11 @@ function MobileView() {
             <b>Congrats!</b> Seems like you cracked the code.
           </h3>
 
+          {/* Animated Counter */}
           <h1 className="text-4xl font-extrabold text-blue-700">
-            250+
+            {count}+
           </h1>
+
           <p className="text-sm font-medium text-black">
             Peers skilled ++ in 2024
           </p>
@@ -59,13 +82,13 @@ function MobileView() {
             <span className="text-xs">Initiative Program</span>
           </div>
           <div className="flex gap-2">
-            <a href="#" className="w-6 h-6 bg-gray-200 rounded-full flex items-center justify-center">
+            <a href="https://www.youtube.com/@zairzarobosofdescluboutrb1825" className="w-6 h-6 bg-gray-200 rounded-full flex items-center justify-center">
               <FaYoutube className="text-black" size={14} />
             </a>
-            <a href="#" className="w-6 h-6 bg-gray-200 rounded-full flex items-center justify-center">
+            <a href="https://www.instagram.com/zairza.outr/" className="w-6 h-6 bg-gray-200 rounded-full flex items-center justify-center">
               <FaInstagram className="text-black" size={14} />
             </a>
-            <a href="#" className="w-6 h-6 bg-gray-200 rounded-full flex items-center justify-center">
+            <a href="https://in.linkedin.com/company/zairza" className="w-6 h-6 bg-gray-200 rounded-full flex items-center justify-center">
               <FaLinkedin className="text-black" size={14} />
             </a>
           </div>
