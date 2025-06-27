@@ -3,22 +3,22 @@ import logo from '../assets/images/zairzalogo.png';
 
 function Footer() {
   return (
-    <footer className="bg-white py-2 border-t border-gray-300">
+    <footer className="bg-white py-4 border-t border-gray-300">
       <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
         
         {/* Logo & Title */}
         <div className="flex items-center gap-2 mb-4 md:mb-0">
-          <img src={logo} alt="Logo" className="h-6 w-6" />
-          <span className="text-sm font-medium text-black font-grotesk ">
-            Zairza Robo-Sof-Des Club's Initiative
+          <img src={logo} alt="Logo" className="h-10 w-10" />
+          <span className="text-sm font-medium text-white font-grotesk ">
+            A event organised by Zairza for the welfare of budding talented software engineers, hardware engineers and designers
           </span>
         </div>
 
         {/* Social Links */}
         <div className="flex gap-4">
-          <a href="https://www.youtube.com/@zairzarobosofdescluboutrb1825" className="text-sm font-[Unbounded] font-bold text-black underline"><b>Youtube</b></a>
-          <a href="https://www.instagram.com/zairza.outr/" className="text-sm font-[Unbounded] font-bold text-black underline"><b>Instagram</b></a>
-          <a href="https://in.linkedin.com/company/zairza" className="text-sm font-[Unbounded] font-bold text-black underline"><b>LinkedIn</b></a>
+          <a href="https://www.youtube.com/@zairzarobosofdescluboutrb1825" className="text-lg font-inter font-bold text-white underline"><b>Youtube</b></a>
+          <a href="https://www.instagram.com/zairza.outr/" className="text-lg font-inter font-bold text-white underline"><b>Instagram</b></a>
+          <a href="https://in.linkedin.com/company/zairza" className="text-lg font-inter font-bold text-white underline"><b>LinkedIn</b></a>
         </div>
 
       </div>

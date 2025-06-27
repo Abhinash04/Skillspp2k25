@@ -329,7 +329,7 @@ body {
 /* DOMAINS */
 
 .domains-wrapper {
-  margin: 6rem 7.5rem 0 7.5rem;
+  margin: 6rem 7.5rem 4rem 7.5rem;
 }
 
 .domains-desc{
@@ -420,3 +420,13 @@ body {
   line-height: 20.8px;
 }
 
+
+
+
+
+
+/* FOOTER */
+
+footer {
+  background: #576F7D;
+}
