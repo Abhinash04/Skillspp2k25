@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
-import Section1 from "./components/Section1";
+import Home from "./pages/Home";
 import MobileView from "./components/MobileView";
 import Register from "./pages/Register";
 import LoginS from "./pages/LoginS";
@@ -32,10 +32,11 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/logins" element={<LoginS />} />
           <Route path="/" element={<Layout />}>
-            <Route index element={<Section1 />} />
+            <Route index element={<Home />} />
           </Route>
         </Routes>
       )}
+
     </Router>
   );
 }
