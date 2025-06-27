@@ -1,8 +1,12 @@
 import React from "react";
-import Section1 from "../components/Section1";
+import Hero from "../components/Hero";
 
 const Home = () => {
-  return <Section1 />;
+  return (
+    <div className="grid-bg">
+      <Hero />
+    </div>
+  );
 };
 
 export default Home;

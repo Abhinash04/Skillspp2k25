@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
   --cream-color: #f9f6e5;
   --grid-color: rgba(0, 0, 0, 0.1);
@@ -42,12 +44,37 @@ body {
   padding: 0;
 }
 
+
+
+
+
+
+
+
+/* GENERAL CLASSES */
+
+.wrapper {
+  margin-left: 7.5rem;
+}
+
+.blue-head {
+  font-size: 35px;
+  color: #313DA2;
+  font-weight: 600;
+}
+
+.topic-head {
+  color: #000;
+  font-family: Unbounded;
+  font-size: 75px;
+}
+
 .grid-bg {
   background-color: var(--cream-color);
   background-image: 
     linear-gradient(var(--grid-color) 1px, transparent 1px),
     linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
-  background-size: 40px 40px;
+  background-size: 50px 50px;
 }
 
 .text-gradient {
@@ -56,6 +83,7 @@ body {
   line-height: 111%;
   letter-spacing: 0px;
   background: linear-gradient(90deg, #2D3BA1 0%, #5E5BA7 15.96%, #D5410E 51.23%, #84147F 74.47%, #790C11 91.99%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -74,7 +102,7 @@ body {
   border-radius: 25%;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .grid-bg {
     background-size: 30px 30px;
@@ -104,3 +132,136 @@ body {
     text-align: center;
   }
 }
+
+
+
+
+
+
+
+
+
+/* HERO */
+
+
+.hero-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.hero-left-sec-wrapper {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10rem;
+  
+}
+
+.text-2k25 {
+  color: #313DA2;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.skillpp {
+  width: 500px;
+}
+
+.reprogram {
+  color: #FF5A01;
+  font-family: "Space Grotesk";
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
+
+.hero-desc {
+  font-family: Inter;
+  font-size: 19px;
+  font-weight: 500;
+  margin: 3rem 0 1rem 0;
+}
+
+.byZairza {
+  display: flex;
+  align-items: center;
+}
+
+.byZariza div {
+  font-family: Inter;
+  font-size: 16px;
+}
+
+.byZairza img {
+  width: 20px;
+}
+
+.hero-desc a {
+  font-weight: bold;
+}
+
+.step img {
+  width: 40px;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+  font-family: Inter;
+}
+
+.step span {
+  font-weight: bold;
+  color: #000;
+}
+
+.step div {
+  color: #858298;
+}
+
+.hero-right-sec-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-right-sec-wrapper img {
+  height: 1100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
