@@ -3,7 +3,17 @@ import logo from '../assets/images/zairzalogo.png';
 
 function Footer() {
   return (
-    <footer className="bg-white py-4 border-t border-gray-300">
+    <footer className="bg-white py-7 border-t border-gray-300">
+      <div className="contacts-wrapper container mx-auto px-6 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+        <div className="contacts-head">
+          For Queries Reach Out To:
+        </div>
+        <div className="contacts">
+          <div className="senior">Shashank: <span>90786 33785</span></div>
+          <div className="senior">Arbin: <span>82988 65794</span></div>
+          <div className="senior">Bivraj: <span>77518 73289</span></div>
+        </div>
+      </div>
       <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
         
         {/* Logo & Title */}
