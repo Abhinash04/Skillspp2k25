@@ -12,7 +12,7 @@ function Hero() {
 
   return (
     <div className="hero-wrapper">
-      <div className="hero-left-sec-wrapper wrapper">
+      <div className="hero-left-sec-wrapper">
         <div className="hero-left-top">
           <div className="text-2k25">2K25</div>
           <div className="skillpp"><img src={skillspp} alt="" /></div>

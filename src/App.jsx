@@ -19,15 +19,11 @@ function App() {
 
   return (
     <Router>
-      {isMobile ? (
-        <MobileView />
-      ) : (
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<Home />} />
-          </Route>
-        </Routes>
-      )}
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+        </Route>
+      </Routes>
     </Router>
   );
 }
