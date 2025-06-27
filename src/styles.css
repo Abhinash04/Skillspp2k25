@@ -54,7 +54,7 @@ body {
 /* GENERAL CLASSES */
 
 .wrapper {
-  margin-left: 7.5rem;
+  padding-left: 7.5rem;
 }
 
 .blue-head {
@@ -242,6 +242,42 @@ body {
 
 
 
+/* TIMELINE */
+
+.timeline-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 1rem; */
+  background: linear-gradient(95deg, #37464F -0.2%, #7EA0B5 99.3%);
+}
+
+.time-left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time {
+  margin: 0.2rem 0;
+}
+
+.timeline-weeks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  gap: 1rem;
+  font-family: Inter;
+}
+
+.time-right {
+  width: 800px;
+}
+
+.time-head {
+  color: #fff;
+}
 
 
 
@@ -250,8 +286,7 @@ body {
 
 
 
-
-
+/* PERKS */
 
 
 
