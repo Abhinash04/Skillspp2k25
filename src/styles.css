@@ -54,7 +54,7 @@ body {
 /* GENERAL CLASSES */
 
 .wrapper {
-  padding-left: 7.5rem;
+  margin-left: 7.5rem;
 }
 
 .blue-head {
@@ -75,6 +75,7 @@ body {
     linear-gradient(var(--grid-color) 1px, transparent 1px),
     linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
   background-size: 50px 50px;
+  
 }
 
 .text-gradient {
@@ -246,16 +247,23 @@ body {
 
 .timeline-wrapper {
   display: flex;
-  justify-content: center;
   align-items: center;
-  /* gap: 1rem; */
-  background: linear-gradient(95deg, #37464F -0.2%, #7EA0B5 99.3%);
+  background-image: 
+  /* Grid pattern layer first (TOP layer) */
+  linear-gradient(var(--grid-color) 1px, transparent 1px),
+  linear-gradient(90deg, var(--grid-color) 1px, transparent 1px),
+  /* Gradient layer second (BOTTOM layer) */
+  linear-gradient(95deg, #37464F -0.2%, #7EA0B5 99.3%);
+  background-size: 50px 50px, 50px 50px, cover;
+  background-repeat: repeat, repeat, no-repeat;
+  background-position: top left, top left, center;
 }
 
 .time-left{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: 7.5rem;
 }
 
 .time {
@@ -288,9 +296,30 @@ body {
 
 /* PERKS */
 
+.perks-wrapper {
+  margin: 5rem 7.5rem 0 7.5rem;
+}
 
+.certificate {
+  margin-top: -1rem;
+}
 
+.perks-desc {
+  margin-top: 1.7rem;
+  font-weight: 500;
+  font-size: 21px;
+}
 
+.all-badges {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5rem;
+}
+
+.all-badges img {
+  width: 240px;
+}
 
 
 

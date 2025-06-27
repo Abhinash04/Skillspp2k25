@@ -3,7 +3,7 @@ import bike from "../assets/images/bike.png"
 export default function Timeline() {
     return (
         <div className="grid-bg">
-            <div className="timeline-wrapper wrapper">
+            <div className="timeline-wrapper">
                 <div className="time-left">
                     <div className="time-head topic-head">The Timeline</div>
                     <div className="timeline-weeks">
