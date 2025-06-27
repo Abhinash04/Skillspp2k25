@@ -326,6 +326,97 @@ body {
 
 
 
+/* DOMAINS */
+
+.domains-wrapper {
+  margin: 6rem 7.5rem 0 7.5rem;
+}
+
+.domains-desc{
+  margin-bottom: 3rem;
+}
 
 
+#section5 {
+  font-family: "Inter", sans-serif;
+  margin: 0px 7vw 0px;
+  text-align: center;
+}
+
+#section5item1 {
+  padding: 30px 25px 15px;
+  min-height: 60px;
+  background: #576F7D;
+  border-radius: 20px 20px 0 0;
+  text-align: left;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+#section5item1 .text {
+  word-wrap: break-word;
+}
+
+
+@media (max-width: 400px) {
+  .custom-mx {
+      margin-left: 3vw;
+      margin-right: 3vw;
+  }
+  .nav-reg{
+    margin-right: -40px;
+  }
+}
+
+.img-hover-desc:hover{
+  opacity: 0.7;
+}
+
+#dropdown-menu {
+  font-size: 14px;
+  background: #435661;
+  border: 1.436px solid #F3F0E0;
+  border-radius: 5px;
+  padding: 4px 12px 4px;
+  color: #dad8ea;
+  font-family: Inter;
+}
+
+#dropdown-menu:focus {
+  outline: none;
+}
+
+#section5item2 {
+  min-height: 360px;
+  background: #A7CACC;
+  border-radius: 0 0 20px 20px;
+  color: #c8cddc;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+#section5foldercontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#section5folders {
+  width: 185px;
+  padding: 20px;
+  font-family: Inter;
+}
+
+#section5folders img {
+  margin: auto;
+}
+
+#section5folders figcaption {
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 20.8px;
+}
 

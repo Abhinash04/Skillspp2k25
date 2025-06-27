@@ -1,3 +1,4 @@
+import Domains from "../components/Domains";
 import Hero from "../components/Hero";
 import Perks from "../components/Perks";
 import Timeline from "../components/Timeline";
@@ -8,6 +9,7 @@ const Home = () => {
       <Hero />
       <Timeline />
       <Perks />
+      <Domains />
     </div>
   );
 };
