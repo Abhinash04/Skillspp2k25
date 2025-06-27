@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import MobileView from "./components/MobileView";
+import Register from "./pages/Register";
+import LoginS from "./pages/LoginS";
 import "./styles.css";
 
 function App() {
@@ -19,11 +21,22 @@ function App() {
 
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-        </Route>
-      </Routes>
+      {isMobile ? (
+        <Routes>
+          <Route path="/register" element={<Register />} />
+          <Route path="/logins" element={<LoginS />} />
+          <Route path="*" element={<MobileView />} />
+        </Routes>
+      ) : (
+        <Routes>
+          <Route path="/register" element={<Register />} />
+          <Route path="/logins" element={<LoginS />} />
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+          </Route>
+        </Routes>
+      )}
+
     </Router>
   );
 }
