@@ -31,7 +31,7 @@ function LoginNavbar() {
       <div className="container mx-auto bg-transparent">
         <div className={`flex justify-between items-center transition-all duration-300 ${scrolled ? 'h-16 px-4' : 'h-16 md:px-4'}` + ' bg-transparent'}>
           {/* Logo */}
-          <div className="flex justify-center items-center md:mr-4">
+          <div className="flex justify-center items-center md:mr-4 cursor-pointer" onClick={() => navigate("/")}>
             <img src={logoimage} alt="skillspp" className="h-8 w-8" />
           </div>
 

@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import gothBaddie from "../assets/images/Baddie.png";
 import RegisterNavbar from "../components/RegisterNavbar";
 import LoginNavbar from "../components/LoginNavbar";
+import Footer from "../components/Footer";
 
 function LoginS() {
 //   const [count, setCount] = useState(0);
@@ -28,9 +29,10 @@ function LoginS() {
 //   }, []);
 
   return (
-    <main className="flex-grow relative overflow-hidden grid-bg flex items-center">
+    <main className="grid-bg h-full">
+    <div className="flex-grow h-full relative overflow-hidden grid-bg flex items-center">
         <LoginNavbar/>
-      <div className="flex flex-col-reverse md:flex-row mx-auto mt-[100px] justify-end w-full">
+      <div className="flex flex-col-reverse h-full md:flex-row mx-auto mt-[100px] justify-end w-full">
     
       
       <div className="container mx-auto px-6 pt-10 relative">
@@ -86,7 +88,9 @@ function LoginS() {
         />
       </motion.div>
       </div>
-
+    </div>
+    <div className="mt-16"></div>
+    <Footer/>
     </main>
   );
 }

@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import alienImage from "../assets/images/alienImg.png";
 import { FaRegistered } from "react-icons/fa";
 import RegisterNavbar from "../components/RegisterNavbar";
+import Footer from "../components/Footer";
 function Register() {
   // const [count, setCount] = useState(0);
 
@@ -29,6 +30,7 @@ function Register() {
   // }, []);
 
   return (
+    <>
     
     <main className="flex-grow relative overflow-hidden grid-bg flex items-center">
       <RegisterNavbar/>
@@ -123,6 +125,8 @@ function Register() {
       </div>
     </div>
     </main>
+    <Footer/>
+    </>
   );
 }
 
