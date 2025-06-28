@@ -20,7 +20,7 @@ function Footer() {
         <div className="flex items-center gap-2 mb-4 md:mb-0">
           <img src={logo} alt="Logo" className="h-10 w-10" />
           <span className="text-sm font-medium text-white font-grotesk ">
-            A event organised by Zairza for the welfare of budding talented software engineers, hardware engineers and designers
+            An event organised by Zairza for the welfare of budding talented software engineers, hardware engineers and designers
           </span>
         </div>
 
