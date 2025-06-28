@@ -6,7 +6,7 @@ import RegisterNavbar from "../components/RegisterNavbar";
 import LoginNavbar from "../components/LoginNavbar";
 import Footer from "../components/Footer";
 
-function LoginS() {
+function Profile() {
 //   const [count, setCount] = useState(0);
 
 //   useEffect(() => {
@@ -95,4 +95,4 @@ function LoginS() {
   );
 }
 
-export default LoginS;
+export default Profile;

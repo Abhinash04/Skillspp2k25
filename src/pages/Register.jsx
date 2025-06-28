@@ -104,16 +104,16 @@ function Register() {
 
             
 
-            <div className="block md:hidden mt-4">
+            {/* <div className="block md:hidden mt-4">
               <button className="px-4 py-2 text-sm font-semibold bg-[#283593] text-white uppercase tracking-wide">
                 TO BE HERE SOON
               </button>
-            </div>
+            </div> */}
           </motion.div>
           {/* Image + Glow */}
           <div className="w-full md:w-1/2 flex justify-center md:justify-end mb-8 md:mb-0">
             <div className="relative w-[300px] h-[300px] md:w-[500px] md:h-[500px]">
-              <div className="absolute left-0 top-1/2 -translate-y-1/2 w-[300px] h-[300px] md:w-[500px] md:h-[500px] rounded-full z-10" style={{background: 'radial-gradient(circle, rgba(255,221,51,0.6) 0%, rgba(255,255,255,0) 70%)'}}></div>
+              <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] md:w-[500px] md:h-[500px] rounded-full z-10" style={{background: 'radial-gradient(circle, rgba(255,221,51,0.9) 0%, rgba(255,255,255,0) 95%)'}}></div>
               <img
                 src={alienImage}
                 alt="Cyberpunk biker on motorcycle"
