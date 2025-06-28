@@ -7,26 +7,6 @@ import LoginNavbar from "../components/LoginNavbar";
 import Footer from "../components/Footer";
 
 function LoginS() {
-//   const [count, setCount] = useState(0);
-
-//   useEffect(() => {
-//     let start = 0;
-//     const end = 250;
-//     const duration = 4000;
-//     const increment = Math.ceil(end / (duration / 50));
-
-//     const counter = setInterval(() => {
-//       start += increment;
-//       if (start >= end) {
-//         setCount(end);
-//         clearInterval(counter);
-//       } else {
-//         setCount(start);
-//       }
-//     }, 50);
-
-//     return () => clearInterval(counter);
-//   }, []);
 
   return (
     <main className="grid-bg h-full">

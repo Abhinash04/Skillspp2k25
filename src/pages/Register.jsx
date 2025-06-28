@@ -59,7 +59,7 @@ function Register() {
             <br></br>
             
             <p className="text-sm flex text-black font-grotesk">
-              <p>Already have registered?</p> &nbsp; <a className="text-orange-400 underline" href="/login">Log in</a>
+              <p>Already have registered?</p> &nbsp; <a className="text-orange-400 underline" href="/logins">Log in</a>
             </p>
             
             <div className="w-full grid gap-y-4">
